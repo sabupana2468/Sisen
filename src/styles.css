@@ -1,0 +1,22 @@
+#stop {
+    margin-top: 300px;
+}
+
+body{
+    margin:0;
+}
+
+html,body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#buttonArea {
+    user-select: none;
+    position: fixed;
+    bottom: 10px;
+    left: 100px;
+}
+

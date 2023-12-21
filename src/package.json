@@ -1,0 +1,21 @@
+{
+  "name": "sugoiare",
+  "version": "1.0.0",
+  "description": "this is very sugoi are.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win64": "electron-packager . Sisen --platform=win32 --arch=x64 --overwrite",
+    "package-linux64": "electron-packager . Sisen --platform=linux --arch=x64 --overwrite --enable-transparent-visuals --disable-gpu"
+  },
+  "keywords": [
+    "are",
+    "sugoi"
+  ],
+  "author": "aoki",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^24.3.1",
+    "electron-packager": "^17.1.2"
+  }
+}
